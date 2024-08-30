@@ -26,18 +26,6 @@ public class Aluno {
     
     public Aluno() {
     }
-	
-	public Aluno(Long id, String nome, int idade, double notaPrimeiroSemestre, double notaSegundoSemestre,
-			String nomeProfessor, int numeroSala) {
-		super();
-		this.id = id;
-		this.nome = nome;
-		this.idade = idade;
-		this.notaPrimeiroSemestre = notaPrimeiroSemestre;
-		this.notaSegundoSemestre = notaSegundoSemestre;
-		this.nomeProfessor = nomeProfessor;
-		this.numeroSala = numeroSala;
-	}
 
 	public long getId() {
 		return id;
